@@ -23,3 +23,6 @@ git commit -m "mensagem" ➤ adiciona uma mensagem ao commit e faz o commit
 git status ➤ exibe a lista de arquivos alterados 
 
 git push ➤ envio/empurra o commit
+
+
+Guarulhos 21 de junho de 2022 🇧🇷
