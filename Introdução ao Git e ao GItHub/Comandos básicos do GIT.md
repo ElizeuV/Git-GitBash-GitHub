@@ -24,5 +24,4 @@ git status ➤ exibe a lista de arquivos alterados
 
 git push ➤ envio/empurra o commit
 
-
-Guarulhos 21 de junho de 2022 🇧🇷
+git pull  ➤ puxa/traz o commit
