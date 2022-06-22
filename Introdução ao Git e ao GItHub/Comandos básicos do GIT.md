@@ -16,7 +16,7 @@ git add  ➤ adiciona o arquivo ao diretório
 
 git add  . ➤ adiciona todos arquivos (novos, modificados e removidos) ao diretório
 
-git clone + link do repositório remoto ➤ clona o repositório remoto e cria uma cópia para o local do  do computador
+git clone + link do repositório remoto ➤ clona o repositório remoto e cria uma cópia para o local do computador
 
 git commit -m "mensagem" ➤ adiciona uma mensagem ao commit e faz o commit
 
