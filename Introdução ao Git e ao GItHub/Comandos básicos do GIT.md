@@ -25,3 +25,5 @@ git status ➤ exibe a lista de arquivos alterados
 git push ➤ envio/empurra o commit
 
 git pull  ➤ puxa/traz o commit
+
+git log ➤  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro.
