@@ -26,4 +26,9 @@ git push ➤ envio/empurra o commit
 
 git pull  ➤ puxa/traz o commit
 
-git log ➤  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro.
+git log ➤  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro
+
+add file + ... ➤  acessa o VsCode Web pelo GitHub
+
+Settings > Collaborators > add people ➤ adiciona pessoas ao projeto (para comitar)
+
