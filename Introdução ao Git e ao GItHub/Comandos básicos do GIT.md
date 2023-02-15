@@ -14,9 +14,9 @@ cd + nome da pasta ➤ entrar na pasta
 
 git init ➤ cria um novo repositório
 
-git add  ➤ adiciona o arquivo ao diretório 
+git add + nome do arquivo ➤ adiciona o arquivo ao diretório 
 
-git add  . ➤ adiciona todos arquivos (novos, modificados e removidos) ao diretório
+git add .  ➤ adiciona todos arquivos (novos, modificados e removidos) ao diretório
 
 git clone + link do repositório remoto ➤ clona o repositório remoto e cria uma cópia para o local do computador
 
