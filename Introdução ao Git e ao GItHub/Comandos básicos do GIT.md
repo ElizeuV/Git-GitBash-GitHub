@@ -35,7 +35,7 @@ git log ➤  lista os commits feitos neste repositório em ordem cronológica in
 git log --oneline 
 ```
 
-> 
+> Volta para o commit anterior:
 ```
 git restore --source + n° do hash do commit + . (todos arquivos)/(nome do arquivo)
 ```
