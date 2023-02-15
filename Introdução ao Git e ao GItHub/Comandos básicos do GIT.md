@@ -1,5 +1,7 @@
 # Comandos básicos do Git/Git Bash:coffee:
 
+## Lista de comandos:
+
 clear ou ctrl + l ➤ limpa a tela
 
 mkdir ➤ cria um diretório 
