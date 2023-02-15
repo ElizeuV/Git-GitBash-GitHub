@@ -30,9 +30,14 @@ git pull  ➤ puxa/traz o commit
 
 git log ➤  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro
 
->Mostra os comites em uma só linha:
+> Mostra os comites em uma só linha:
 ```
 git log --oneline 
+```
+
+> 
+```
+git restore --source + n° do hash do commit + . (todos arquivos)/(nome do arquivo)
 ```
 
 add file + ... ➤  acessa o VsCode Web pelo GitHub
