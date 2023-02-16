@@ -75,11 +75,75 @@ git switch main. E para voltar para a branch de desenvolvimento: git switch dese
 git push origin desenvolvimento
 ```
 
->
+>Merge
+```
+git merge desenvolvimento
+```
+```
+git push origin main
 ```
 
+> Anotações
 ```
+[desenvolvimento bde3e52] Adicionando contato, branch desenvolvimento
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git brach
+git: 'brach' is not a git command. See 'git --help'.
 
+The most similar command is
+        branch
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git branch
+* desenvolvimento
+  desenvolvimeto
+  main
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro>  git branch -d  desenvolvimeto 
+Deleted branch desenvolvimeto (was 21e7692).
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git branch
+* desenvolvimento
+  main
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git switch main                
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git branch
+  desenvolvimento
+* main
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git log --oneline
+21e7692 (HEAD -> main, origin/main, origin/HEAD) Criação da página contato
+fce427d voltando para: atualizando o arquivo app.js
+43d25fd Atualizando a mensagem do arquivo console.log
+a2d4e39 Atializando o a mensagem do arquivo console.log
+c78559a atualizando o arquivo app.js
+4ae0c56 .\app.js
+e546ffd linkando o app js com o html
+33d9cbe altereando o readme
+4556665 criando o arquivo index do projeto
+429fd4b alterando o readme do projeto
+01a30cb criando arquivo js com o console
+684f103 criando arquivo readme
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git merge desenvolvimento 
+Updating 21e7692..bde3e52
+Fast-forward
+ contato.html | 3 +++
+ 1 file changed, 3 insertions(+)
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git log --oneline
+bde3e52 (HEAD -> main, origin/desenvolvimento, desenvolvimento) Adicionando contato, branch desenvolvimento
+21e7692 (origin/main, origin/HEAD) Criação da página contato
+fce427d voltando para: atualizando o arquivo app.js
+43d25fd Atualizando a mensagem do arquivo console.log
+a2d4e39 Atializando o a mensagem do arquivo console.log
+c78559a atualizando o arquivo app.js
+4ae0c56 .\app.js
+e546ffd linkando o app js com o html
+33d9cbe altereando o readme
+4556665 criando o arquivo index do projeto
+429fd4b alterando o readme do projeto
+01a30cb criando arquivo js com o console
+684f103 criando arquivo readme
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> git push origin main           
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ElizeuV/sistemas-de-cadastro.git
+   21e7692..bde3e52  main -> main
+PS C:\Users\Elizeu Vito Santos\Documentos\sistemas-de-cadastro> 
+```
 
 add file + ... ➤  acessa o VsCode Web pelo GitHub
 
