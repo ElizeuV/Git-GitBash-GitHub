@@ -40,6 +40,54 @@ git log --oneline
 git restore --source + n° do hash do commit + . (todos arquivos)/(nome do arquivo)
 ```
 
+> Se, em vez de menos informações, quisermos ver mais como as alterações do commit, podemos usar:
+```
+git log -p
+```
+
+> Também podemos pesquisar as informações do autor daquele commit com o comando:
+```
+git log --author="user_name"
+```
+
+>E pesquisar informações por data:
+```
+git log --since=1.month.ago --until=1.day.ago
+```
+
+>Você também pode formatar a visualização das informações de commit com o comando:
+```
+git log --pretty="format:%h %s"
+```
+
+>
+```
+
+```
+
+>
+```
+
+```
+
+>
+```
+
+```
+
+>
+```
+
+```
+
+
+
+
+
+
+
+
+
 add file + ... ➤  acessa o VsCode Web pelo GitHub
 
 Settings > Collaborators > add people ➤ adiciona pessoas ao projeto (para comitar)
