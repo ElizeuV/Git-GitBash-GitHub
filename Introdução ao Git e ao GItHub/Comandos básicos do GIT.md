@@ -60,32 +60,25 @@ git log --since=1.month.ago --until=1.day.ago
 git log --pretty="format:%h %s"
 ```
 
+>Vamos lá, como criar uma branch diferente? No terminal, vamos colocar o comando git checkout, -bpara criar a branch e chamarei essa branch de "desenvolvimento":
+```
+git checkout -b desenvolvimento
+```
+
+>Quando pressiono "Enter" ele cria a branch de desenvolvimento e estou nela agora. Se você quiser voltar para a branch principal pode usar o comando
+```
+git switch main. E para voltar para a branch de desenvolvimento: git switch desenvolvimento.
+```
+
+>Fiz um git add e um git commit, agora falta fazer um push para a nossa branch de desenvolvimento. Eu quero mandar para determinada origem, qual é essa origem? A origem de desenvolvimento:
+```
+git push origin desenvolvimento
+```
+
 >
 ```
 
 ```
-
->
-```
-
-```
-
->
-```
-
-```
-
->
-```
-
-```
-
-
-
-
-
-
-
 
 
 add file + ... ➤  acessa o VsCode Web pelo GitHub
