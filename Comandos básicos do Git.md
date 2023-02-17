@@ -2,29 +2,41 @@
 
 ## Lista de comandos:
 
-clear ou ctrl + l ➤ limpa a tela
+> limpa a tela
+clear ou ctrl + l 
 
-mkdir ➤ cria um diretório 
+> cria um diretório 
+mkdir
 
-dir  ➤ exibe, em formato largo, uma lista alfabética dos nomes de arquivo correspondentes em cada diretório
+> exibe, em formato largo, uma lista alfabética dos nomes de arquivo correspondentes em cada diretório
+dir 
 
-cd .. ➤  sai da pasta
+> sai da pasta
+cd .. 
 
-cd + nome da pasta ➤ entrar na pasta
+> entrar na pasta
+cd + nome da pasta 
 
-git init ➤ cria um novo repositório
+> cria um novo repositório
+git init 
 
-git add + nome do arquivo ➤ adiciona o arquivo ao diretório 
+> adiciona o arquivo ao diretório 
+git add + nome do arquivo 
 
-git add .  ➤ adiciona todos arquivos (novos, modificados e removidos) ao diretório
+> adiciona todos arquivos (novos, modificados e removidos) ao diretório
+git add .  
 
-git clone + link do repositório remoto ➤ clona o repositório remoto e cria uma cópia para o local do computador
+> clona o repositório remoto e cria uma cópia para o local do computador
+git clone + link do repositório remoto 
 
-git commit -m "mensagem" ➤ adiciona uma mensagem ao commit e faz o commit
+> adiciona uma mensagem ao commit e faz o commit
+git commit -m "mensagem" 
 
-git status ➤ exibe a lista de arquivos alterados 
+> exibe a lista de arquivos alterados 
+git status 
 
-git push ➤ envio/empurra o commit
+>envio/empurra o commit
+git push 
 
 git pull  ➤ puxa/traz o commit
 
