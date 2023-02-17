@@ -59,11 +59,12 @@ git status
 
 >envio/empurra o commit
 ```
-git push 
+git push  
+```
 
 > puxa/traz o commit
 ```
-git pull  
+git pull  + link do dirtório
 ```
 
 >  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro
