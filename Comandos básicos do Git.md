@@ -38,9 +38,11 @@ git status
 >envio/empurra o commit
 git push 
 
-git pull  ➤ puxa/traz o commit
+> puxa/traz o commit
+git pull  
 
-git log ➤  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro
+>  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro
+git log 
 
 > Mostra os comites em uma só linha:
 ```
