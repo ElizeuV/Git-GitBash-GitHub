@@ -3,46 +3,73 @@
 ## Lista de comandos:
 
 > limpa a tela
+```
 clear ou ctrl + l 
+```
 
 > cria um diretório 
+```
 mkdir
+```
 
 > exibe, em formato largo, uma lista alfabética dos nomes de arquivo correspondentes em cada diretório
+```
 dir 
+```
 
 > sai da pasta
+```
 cd .. 
+```
 
 > entrar na pasta
+```
 cd + nome da pasta 
+```
 
 > cria um novo repositório
+```
 git init 
+```
 
 > adiciona o arquivo ao diretório 
+```
 git add + nome do arquivo 
+```
 
 > adiciona todos arquivos (novos, modificados e removidos) ao diretório
+```
 git add .  
+```
 
 > clona o repositório remoto e cria uma cópia para o local do computador
+```
 git clone + link do repositório remoto 
+```
 
 > adiciona uma mensagem ao commit e faz o commit
+```
 git commit -m "mensagem" 
+```
 
-> exibe a lista de arquivos alterados 
+> exibe a lista de arquivos alterados
+``` 
 git status 
+```
 
 >envio/empurra o commit
+```
 git push 
 
 > puxa/traz o commit
+```
 git pull  
+```
 
 >  lista os commits feitos neste repositório em ordem cronológica inversa; isto é, o commit mais recente aparece primeiro
+```
 git log 
+```
 
 > Mostra os comites em uma só linha:
 ```
@@ -89,7 +116,7 @@ git switch main. E para voltar para a branch de desenvolvimento: git switch dese
 git push origin desenvolvimento
 ```
 
->Merge
+> Merge:
 ```
 git merge desenvolvimento
 ```
@@ -97,7 +124,9 @@ git merge desenvolvimento
 git push origin main
 ```
 
-add file + ... ➤  acessa o VsCode Web pelo GitHub
+> acessa o VsCode Web pelo GitHub
+add file + ... 
 
-Settings > Collaborators > add people ➤ adiciona pessoas ao projeto (para comitar)
+> adiciona pessoas ao projeto (para comitar)
+Settings > Collaborators > add people 
 
