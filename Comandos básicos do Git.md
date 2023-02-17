@@ -14,7 +14,7 @@ mkdir
 
 > exibe, em formato largo, uma lista alfabética dos nomes de arquivo correspondentes em cada diretório
 ```
-dir 
+dir ou ls
 ```
 
 > sai da pasta
