@@ -125,9 +125,9 @@ git merge desenvolvimento
 git push origin main
 ```
 
-> acessa o VsCode Web pelo GitHub
+### acessa o VsCode Web pelo GitHub
 add file + ... 
 
-> adiciona pessoas ao projeto (para comitar)
+### adiciona pessoas ao projeto (para comitar)
 Settings > Collaborators > add people 
 
