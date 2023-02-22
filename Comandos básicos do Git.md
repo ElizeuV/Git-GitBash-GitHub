@@ -2,7 +2,7 @@
 
 ## Lista de comandos:
 
-> limpa a tela
+> limpa a tela:
 ```
 clear ou ctrl + l 
 ```
