@@ -2,6 +2,29 @@
 
 ## Lista de comandos:
 
+#### Como faço para conectar remotamente no Git?
+##### Configurar o cliente GIT, para vincular os commits ao nome correto ( Autor dos commits):
+```
+git config --global user.name "SEU NOME AQUI"
+```
+```
+git config --global user.email email@gmail.com
+```
+
+Gere o par de chaves ssh: ssh-keygen -t rsa
+PS: Se você não tiver o ssh, deve instalar
+
+Você cria um repositório no GitHub para este seu projeto
+Copia a url que ele gerar. Alguma coisa do tipo: https://github.com/usuario/nome_do_projeto.git
+
+Então no teu git local, dê o comando: git remote add origin https://github.com/usuario/nome_do_projeto.git
+
+PS: origin é apenas um nome padrão você pode colocar qualquer nome. Ele será o nome do teu repositório remoto
+
+Então você dá o comando: git push origin master
+Informa a senha e pronto.
+
+
 > limpa a tela:
 ```
 clear ou ctrl + l 
@@ -131,10 +154,4 @@ Clicando 3 x ...
 ### adiciona pessoas ao projeto (para comitar):
 Settings > Collaborators > add people 
 
-## Configurar o cliente GIT, para vincular os commits ao nome correto ( Autor dos commits):
-```
-git config --global user.name "SEU NOME AQUI"
-```
-```
-git config --global user.email email@gmail.com
-```
+
