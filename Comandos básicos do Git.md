@@ -125,9 +125,13 @@ git merge desenvolvimento
 git push origin main
 ```
 
-### acessa o VsCode Web pelo GitHub
+### acessa o VsCode Web pelo GitHub:
 Clicando 3 x ... 
 
-### adiciona pessoas ao projeto (para comitar)
+### adiciona pessoas ao projeto (para comitar):
 Settings > Collaborators > add people 
 
+## Configurar o cliente GIT, para vincular os commits ao nome correto ( Autor dos commits):
+
+git config --global user.name "SEU NOME AQUI"
+git config --global user.email email@gmail.com
