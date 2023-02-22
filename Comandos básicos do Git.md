@@ -126,7 +126,7 @@ git push origin main
 ```
 
 ### acessa o VsCode Web pelo GitHub
-add file + ... 
+Clicando 3 x no ... 
 
 ### adiciona pessoas ao projeto (para comitar)
 Settings > Collaborators > add people 
