@@ -132,6 +132,9 @@ Clicando 3 x ...
 Settings > Collaborators > add people 
 
 ## Configurar o cliente GIT, para vincular os commits ao nome correto ( Autor dos commits):
-
+```
 git config --global user.name "SEU NOME AQUI"
+```
+```
 git config --global user.email email@gmail.com
+```
