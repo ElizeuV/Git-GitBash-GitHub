@@ -1,4 +1,4 @@
-# Repositorio do Projeto sobre Git/Github 
+# Git/Github 
 Repositório criado para transmisão de conhecimento
 
 ## Links Úteis
