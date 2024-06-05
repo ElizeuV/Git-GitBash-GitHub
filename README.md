@@ -100,21 +100,6 @@ git log
 git log --oneline 
 ```
 
-> Exibe todas as diferenças entre sua cópia local e o índice sincronizado:
-```
-git diff
-```
-
-> Exibe todas as diferenças entre o índice sincronizado e o último commit
-```
-git diff –cached
-```
-
-> Exibe todas as diferenças entre sua cópia local e o último commit realizado
-```
-git diff HEAD
-```
-
 > Volta para o commit anterior:
 ```
 git restore --source + n° do hash do commit + . (todos arquivos)/(nome do arquivo)
@@ -138,6 +123,20 @@ git log --since=1.month.ago --until=1.day.ago
 >Você também pode formatar a visualização das informações de commit com o comando:
 ```
 git log --pretty="format:%h %s"
+```
+> Exibe todas as diferenças entre sua cópia local e o índice sincronizado:
+```
+git diff
+```
+
+> Exibe todas as diferenças entre o índice sincronizado e o último commit
+```
+git diff –cached
+```
+
+> Exibe todas as diferenças entre sua cópia local e o último commit realizado
+```
+git diff HEAD
 ```
 
 >Vamos lá, como criar uma branch diferente? No terminal, vamos colocar o comando git checkout, -bpara criar a branch e chamarei essa branch de "desenvolvimento":
