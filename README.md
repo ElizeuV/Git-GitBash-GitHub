@@ -148,6 +148,7 @@ git merge desenvolvimento
 git push origin main
 ```
 
+![estadosdogit](https://github.com/ElizeuV/Comandos-b-sicos-do-Git-Git-Bash/assets/94203670/79510e68-b485-4a09-9cb9-9ff8fe9af7a6)
 
 
 
