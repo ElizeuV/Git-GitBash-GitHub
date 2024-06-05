@@ -169,13 +169,13 @@ git switch main. E para voltar para a branch de desenvolvimento: git switch dese
 ```
 git push origin desenvolvimento
 ```
-
-> Merge:
-```
-git merge desenvolvimento
-```
 ```
 git push origin main
+```
+
+> Como receber/trazer a diferença de outra branch (Merge):
+```
+git merge <nomeDaBranchQueQueroReceber>
 ```
 
 ![estadosdogit](https://github.com/ElizeuV/Comandos-b-sicos-do-Git-Git-Bash/assets/94203670/79510e68-b485-4a09-9cb9-9ff8fe9af7a6)
