@@ -149,6 +149,11 @@ git fetch
 ```
 git checkout -b desenvolvimento
 ```
+ou
+
+```
+git branch MinhaNovaBrach
+```
 
 >Quando pressiono "Enter" ele cria a branch de desenvolvimento e estou nela agora. Se você quiser voltar para a branch principal pode usar o comando
 ```
