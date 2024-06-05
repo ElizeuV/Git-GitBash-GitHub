@@ -155,6 +155,11 @@ ou
 git branch MinhaNovaBrach
 ```
 
+> Acessar uma branch
+```
+git checkout MinhaNovaBrach
+```
+
 >Quando pressiono "Enter" ele cria a branch de desenvolvimento e estou nela agora. Se você quiser voltar para a branch principal pode usar o comando
 ```
 git switch main. E para voltar para a branch de desenvolvimento: git switch desenvolvimento.
