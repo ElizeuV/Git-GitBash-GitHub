@@ -139,6 +139,12 @@ git diff –cached
 git diff HEAD
 ```
 
+
+> Mostra o que será acrescentando antes do git pull (olar a diferença com git diff/origin/master)
+```
+git fetch
+```
+
 >Vamos lá, como criar uma branch diferente? No terminal, vamos colocar o comando git checkout, -bpara criar a branch e chamarei essa branch de "desenvolvimento":
 ```
 git checkout -b desenvolvimento
