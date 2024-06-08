@@ -1,4 +1,4 @@
-# Comandos básicos do Git/Git Bash:coffee:
+# Comandos básicos do Git/Git Bash 
 
 ## Lista de comandos:
 
