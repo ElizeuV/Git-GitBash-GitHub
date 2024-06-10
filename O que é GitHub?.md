@@ -4,7 +4,7 @@ oferecendo recursos como rastreamento de problemas, gerenciamento de projetos, r
 
 #### Aqui estão algumas palavras básicas relacionadas ao GitHub:
 
-Repositório: Um local onde os arquivos do seu projeto são armazenados e gerenciados.
+**Repositório:** Um local onde os arquivos do seu projeto são armazenados e gerenciados.
 Commit: Uma alteração feita em um arquivo ou conjunto de arquivos no seu repositório.
 Branch: Uma ramificação separada do código-fonte principal, usada para desenvolver novos recursos ou corrigir bugs sem afetar o código principal.
 Pull request (Pedido de recebimento): Uma solicitação feita por um colaborador para mesclar as alterações feitas em uma branch para outra branch ou para a branch principal.
