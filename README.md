@@ -24,31 +24,7 @@ PS: origin é apenas um nome padrão você pode colocar qualquer nome. Ele será
 Então você dá o comando: git push origin master
 Informa a senha e pronto.
 
-
-> limpa a tela:
-```
-clear ou ctrl + l 
-```
-
-> cria um diretório 
-```
-mkdir
-```
-
-> exibe, em formato largo, uma lista alfabética dos nomes de arquivo correspondentes em cada diretório
-```
-dir ou ls
-```
-
-> sai da pasta
-```
-cd .. 
-```
-
-> entrar na pasta
-```
-cd + nome da pasta 
-```
+#### Comandos:
 
 > cria um novo repositório
 ```
@@ -176,6 +152,33 @@ git push origin main
 > Como receber/trazer a diferença de outra branch (Merge):
 ```
 git merge <nomeDaBranchQueQueroReceber>
+```
+
+#### Outros comandos:
+
+> limpa a tela:
+```
+clear ou ctrl + l 
+```
+
+> cria um diretório 
+```
+mkdir
+```
+
+> exibe, em formato largo, uma lista alfabética dos nomes de arquivo correspondentes em cada diretório
+```
+dir ou ls
+```
+
+> sai da pasta
+```
+cd .. 
+```
+
+> entrar na pasta
+```
+cd + nome da pasta 
 ```
 
 ![estadosdogit](https://github.com/ElizeuV/Comandos-b-sicos-do-Git-Git-Bash/assets/94203670/79510e68-b485-4a09-9cb9-9ff8fe9af7a6)
